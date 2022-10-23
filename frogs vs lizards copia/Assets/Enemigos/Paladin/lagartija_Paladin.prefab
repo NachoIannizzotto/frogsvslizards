@@ -132,7 +132,7 @@ MonoBehaviour:
   velocidadInicial: 7
   velocidad: 15
   vidaInicial: 350
-  value: 150
+  value: 125
   BarraVida: {fileID: 155632747221725798}
 --- !u!1 &1441757826647338851
 GameObject:

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Stats : MonoBehaviour{
 
     public static int Dinero;
-    public int DineroInicial = 500;
+    public int DineroInicial = 300;
 
     public static int Vida;
     public int VidaInicial = 30;
