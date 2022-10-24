@@ -2813,7 +2813,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564883047285172206}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -3609,3 +3609,6 @@ MonoBehaviour:
   MuzzleL: {fileID: 3714372304293712719}
   MuzzleR: {fileID: 1011240739}
   Muzzling: 0
+  gunBarrellL: {fileID: 0}
+  gunBarrellR: {fileID: 0}
+  bulletTrail: {fileID: 0}
