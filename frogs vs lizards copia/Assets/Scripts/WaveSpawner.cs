@@ -115,7 +115,6 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave(Wave _wave)
     {
-        Stats.Oleadas++;
 
         Debug.Log("Spawning Wave: " + _wave.name);
         state = SpawnState.SPAWNING;

@@ -10,14 +10,10 @@ public class Stats : MonoBehaviour{
     public static int Vida;
     public int VidaInicial = 30;
 
-    public static int Oleadas;
-
     private void Start()
     {
         Dinero = DineroInicial;
         Vida = VidaInicial;
-
-        Oleadas = 0;
     }
 
 }
