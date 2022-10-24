@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.VFX;
 
 
+
 public class DisparoTorreta : MonoBehaviour
 {
     //VARIABLES//
@@ -27,6 +28,12 @@ public class DisparoTorreta : MonoBehaviour
     public VisualEffect MuzzleL;
     public VisualEffect MuzzleR;
     public bool Muzzling = false;
+    
+    
+    //Trazado de balas//
+        public Transform gunBarrellL;
+        public Transform gunBarrellR;
+        public TrailRenderer bulletTrail;
 
     public void Awake()
     {
@@ -52,6 +59,16 @@ public class DisparoTorreta : MonoBehaviour
 
     void Shoot()
     {
+        var bulletL = Instantiate(bulletTrail, gunBarrellL.position, Quaternion.identity);
+        bulletL.AddPosition(gunBarrellL.position);
+        {
+            bulletL.transform.position = transform.position + (turretCam.transform.forward * 200);
+        }
+        var bulletR = Instantiate(bulletTrail, gunBarrellR.position, Quaternion.identity);
+        bulletR.AddPosition(gunBarrellR.position);
+        {
+            bulletR.transform.position = transform.position + (turretCam.transform.forward * 200);
+        }
         RaycastHit hit;
         if (Physics.Raycast(turretCam.transform.position, turretCam.transform.forward, out hit, range))
         {

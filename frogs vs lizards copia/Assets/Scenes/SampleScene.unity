@@ -1128,9 +1128,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80195733}
-  m_LocalRotation: {x: 0.0871557, y: -0, z: -0, w: 0.9961947}
-  m_LocalPosition: {x: 0.004059998, y: 0.0007542663, z: 0.008120453}
-  m_LocalScale: {x: 0.004, y: 0.0039999997, z: 0.0039999997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.004059998, y: 0.00155, z: 0.00362}
+  m_LocalScale: {x: 0, y: 0.0039999997, z: 0.0039999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2824842139279231072}
@@ -13518,6 +13518,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1507587004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507587005}
+  m_Layer: 0
+  m_Name: BoquillaTrailR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1507587005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507587004}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00219, y: 0.00321, z: 0.00168}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2824842139279231072}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1509500230
 GameObject:
   m_ObjectHideFlags: 0
@@ -19253,6 +19284,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 171961d59903b80459d048f1cc380748, type: 3}
+--- !u!1 &2045191427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045191428}
+  m_Layer: 0
+  m_Name: BoquillaTrailL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045191428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045191427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00219, y: 0.00315, z: 0.00157}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8303270653590245046}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2045938773
 GameObject:
   m_ObjectHideFlags: 0
@@ -21217,6 +21279,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 80195734}
+  - {fileID: 1507587005}
   m_Father: {fileID: 4901016187467168}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22202,7 +22265,7 @@ Transform:
   m_GameObject: {fileID: 9011271131781003229}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0043251193, y: 0.0014359988, z: 0.0029959057}
-  m_LocalScale: {x: 0.004, y: 0.0039999997, z: 0.0039999997}
+  m_LocalScale: {x: 0, y: 0.0039999997, z: 0.0039999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8303270653590245046}
@@ -22377,6 +22440,9 @@ MonoBehaviour:
   MuzzleL: {fileID: 8446220045206349802}
   MuzzleR: {fileID: 80195736}
   Muzzling: 0
+  gunBarrellL: {fileID: 2045191428}
+  gunBarrellR: {fileID: 80195734}
+  bulletTrail: {fileID: 6670010285891972953, guid: be5ec9ddc3537524a8a540b96d2bedb1, type: 3}
 --- !u!4 &7128875576927303075
 Transform:
   m_ObjectHideFlags: 0
@@ -22607,6 +22673,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6306095565838663468}
+  - {fileID: 2045191428}
   m_Father: {fileID: 4901016187467168}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
