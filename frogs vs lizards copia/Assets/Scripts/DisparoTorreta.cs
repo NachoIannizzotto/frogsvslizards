@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using EZCameraShake;
 
 
 
@@ -104,7 +105,7 @@ public class DisparoTorreta : MonoBehaviour
         {
             Shoot();
             currentAmmo -= 1;
-            
+            CameraShaker.Instance.ShakeOnce(2f, 6f, 0.5f, 0.5f);
             return true;
         }
 
