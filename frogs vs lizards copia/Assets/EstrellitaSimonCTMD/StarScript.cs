@@ -28,7 +28,7 @@ public class StarScript : MonoBehaviour
 
     void GenerateSky()
     {
-        float xPos, zPos;
+        
         Vector3 pos;
         pos.y = skyAltitude;
         for (int i = 0; i < numberStars; i++)

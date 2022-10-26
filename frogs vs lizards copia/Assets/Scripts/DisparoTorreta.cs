@@ -35,11 +35,20 @@ public class DisparoTorreta : MonoBehaviour
         public Transform gunBarrellL;
         public Transform gunBarrellR;
         public TrailRenderer bulletTrail;
+        public TrailRenderer BulletTrailSuper;
+    
+    //MetodosLlamados//
+    public AbilitySystem abilitySystem;
 
     public void Awake()
     {
         
         currentAmmo = maxAmmo;
+    }
+
+    public void Start()
+    {
+        abilitySystem = FindObjectOfType<AbilitySystem>();
     }
 
     private void FixedUpdate()
@@ -60,16 +69,33 @@ public class DisparoTorreta : MonoBehaviour
 
     void Shoot()
     {
-        var bulletL = Instantiate(bulletTrail, gunBarrellL.position, Quaternion.identity);
-        bulletL.AddPosition(gunBarrellL.position);
+        if (abilitySystem.effects==false)
         {
-            bulletL.transform.position = transform.position + (turretCam.transform.forward * 200);
+            var bulletL = Instantiate(bulletTrail, gunBarrellL.position, Quaternion.identity);
+            bulletL.AddPosition(gunBarrellL.position);
+            {
+                bulletL.transform.position = transform.position + (turretCam.transform.forward * 200);
+            }
+            var bulletR = Instantiate(bulletTrail, gunBarrellR.position, Quaternion.identity);
+            bulletR.AddPosition(gunBarrellR.position);
+            {
+                bulletR.transform.position = transform.position + (turretCam.transform.forward * 200);
+            }
         }
-        var bulletR = Instantiate(bulletTrail, gunBarrellR.position, Quaternion.identity);
-        bulletR.AddPosition(gunBarrellR.position);
+        if(abilitySystem.effects==true)
         {
-            bulletR.transform.position = transform.position + (turretCam.transform.forward * 200);
+            var bulletL = Instantiate(BulletTrailSuper, gunBarrellL.position, Quaternion.identity);
+            bulletL.AddPosition(gunBarrellL.position);
+            {
+                bulletL.transform.position = transform.position + (turretCam.transform.forward * 200);
+            }
+            var bulletR = Instantiate(BulletTrailSuper, gunBarrellR.position, Quaternion.identity);
+            bulletR.AddPosition(gunBarrellR.position);
+            {
+                bulletR.transform.position = transform.position + (turretCam.transform.forward * 200);
+            }
         }
+        
         RaycastHit hit;
         if (Physics.Raycast(turretCam.transform.position, turretCam.transform.forward, out hit, range))
         {

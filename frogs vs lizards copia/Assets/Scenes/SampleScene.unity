@@ -3055,7 +3055,7 @@ GameObject:
   - component: {fileID: 309630324}
   - component: {fileID: 309630323}
   - component: {fileID: 309630322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: END
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3082,7 +3082,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9a294fde52a89cf449db8aab4dd0221b, type: 2}
+  - {fileID: 2100000, guid: 68a9885568bc2bc4b88e2f8e1cdbd91b, type: 2}
+  - {fileID: 2100000, guid: a18f77aff2542344eba7f3e84c66c1be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3111,7 +3112,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309630321}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -8172680918820081068, guid: 0412f4bdf9bcdc34a8252298edbfeb40, type: 3}
 --- !u!4 &309630324
 Transform:
   m_ObjectHideFlags: 0
@@ -3119,14 +3120,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309630321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.596428, y: -13.82407, z: 41.851723}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 10.596428, y: -15.42, z: 41.87}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 572879201}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &314029287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4709,7 +4710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &539864430
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4750,7 +4751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5695,7 +5696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &630928970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5736,7 +5737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9579,7 +9580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd55c1cb923c9964382268ae357a07c1, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14921,7 +14922,8 @@ MonoBehaviour:
   ability1: 273
   disparoTorreta: {fileID: 6948799528614259811}
   time: 0
-  loopDuration: 20
+  loopDuration: 5
+  effects: 0
   abilityImage2: {fileID: 2146058968}
   cooldown2: 10
   ability2: 276
@@ -17964,7 +17966,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1857964833
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18005,7 +18007,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19424,7 +19426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd55c1cb923c9964382268ae357a07c1, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21746,7 +21748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2146058967
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21787,7 +21789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0fe858c551f3cb429e2fea7bd1c663f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24768,6 +24770,8 @@ MonoBehaviour:
   gunBarrellL: {fileID: 2045191428}
   gunBarrellR: {fileID: 80195734}
   bulletTrail: {fileID: 6670010285891972953, guid: be5ec9ddc3537524a8a540b96d2bedb1, type: 3}
+  BulletTrailSuper: {fileID: 6670010285891972953, guid: 82979ed15971f284cb223a2141363015, type: 3}
+  abilitySystem: {fileID: 1505368750}
 --- !u!4 &7128875576927303075
 Transform:
   m_ObjectHideFlags: 0

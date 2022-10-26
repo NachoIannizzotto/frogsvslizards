@@ -15,6 +15,7 @@ public class AbilitySystem : MonoBehaviour
     public DisparoTorreta disparoTorreta;
     public float time = 0.0f;
     public float loopDuration = 20.0f;
+    public bool effects;
 
     [Header("Ability 2")] //HABILIDAD 2
     public Image abilityImage2;
@@ -39,7 +40,7 @@ public class AbilitySystem : MonoBehaviour
         abilityImage1.fillAmount = 0;
         abilityImage2.fillAmount = 0;
         abilityImage3.fillAmount = 0;
-        abilityImage4.fillAmount = 0;
+        //abilityImage4.fillAmount = 0;
         disparoTorreta = FindObjectOfType<DisparoTorreta>();
     }
 
@@ -60,12 +61,14 @@ public class AbilitySystem : MonoBehaviour
             abilityImage1.fillAmount = 1;
             do
             {
+                effects = true;
                 disparoTorreta.shotRateTime = 15;
                 Debug.Log("HABILIDAD1");
                 time += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             } while (time < loopDuration);
 
+            effects = false;
             time = 0.0f;
             disparoTorreta.shotRateTime = 5;
             Debug.Log("HABILIDAD1 FINALIZADO");
