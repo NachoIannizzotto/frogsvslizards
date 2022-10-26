@@ -1,25 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    public Text OleadaSuperadasText;
+    public string menuSceneName = "Menu";
 
-    void OnEnable()
-    {
-        OleadaSuperadasText.text = Stats.Oleadas.ToString();
-    }
+    public SceneFader sceneFader;
 
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
     public void Menu()
     {
-
+        sceneFader.FadeTo(menuSceneName);
     }
 }

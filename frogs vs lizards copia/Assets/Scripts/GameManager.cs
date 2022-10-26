@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     private static bool GameIsOver;
 
     public GameObject gameOverUI;
+    public GameObject VictoriaUI;
 
     void Start()
     {
@@ -35,5 +36,12 @@ public class GameManager : MonoBehaviour
         GameIsOver = true;
 
         gameOverUI.SetActive(true);
+    }
+
+    public void WinLevel ()
+    {
+        GameIsOver = true;
+
+        VictoriaUI.SetActive(true);
     }
 }

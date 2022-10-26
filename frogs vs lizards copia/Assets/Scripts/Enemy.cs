@@ -14,7 +14,11 @@ public class Enemy : MonoBehaviour
 
     public int value = 50;
 
+    [Header("Unity Stuff")]
     public Image BarraVida;
+
+    private bool EstaMuerto = false;
+
 
     void Start()
     {
@@ -27,7 +31,7 @@ public class Enemy : MonoBehaviour
 
         BarraVida.fillAmount = vida / vidaInicial;
 
-        if (vida <= 0f)
+        if (vida <= 0f && !EstaMuerto)
         {
             Die();
         }
@@ -40,6 +44,8 @@ public class Enemy : MonoBehaviour
 
     void Die ()
     {
+        EstaMuerto = true;
+
         Stats.Dinero += value;
 
         GeneradorOleada.EnemigoVivos--;

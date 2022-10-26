@@ -11,10 +11,10 @@ public class DisparoTorreta : MonoBehaviour
 {
     //VARIABLES//
     //Disparo y daño//
-    public float damage = 10f;
-    public float range = 100f;
+    public float damage;
+    public float range = 300f;
     public float nextshotRate = 0f;
-    public float shotRateTime = 15f;
+    public float shotRateTime;
     public Camera turretCam;
     public Vector3 raycastHits;
 

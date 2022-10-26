@@ -41,6 +41,10 @@ public class WaveSpawner : MonoBehaviour
 
     public Text oleadaCountdownText;
 
+    public GameObject VictoriaUI;
+
+    //public GameManager gameManager;
+
     void Start()
     {
         //waveCountdown = timeBetweenWaves;
@@ -90,6 +94,9 @@ public class WaveSpawner : MonoBehaviour
         {
             nextWave = 0;
             Debug.Log("Complete all waves");
+            //gameManager.WinLevel();
+            VictoriaUI.SetActive(true);
+            this.enabled = false;
         }
         else
         {

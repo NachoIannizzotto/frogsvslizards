@@ -5,8 +5,9 @@ using UnityEngine;
 public class MirarCamara : MonoBehaviour
 {
     public GameObject Camara;
-    void Update()
+    void Start()
     {
+        //Camara = FindObjectOfType<MirarVida>();
         transform.LookAt(Camara.transform.position);
     }
 }

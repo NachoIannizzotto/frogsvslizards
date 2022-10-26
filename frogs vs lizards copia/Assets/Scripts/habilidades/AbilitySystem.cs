@@ -12,6 +12,9 @@ public class AbilitySystem : MonoBehaviour
     public float cooldown1 = 5;
     bool isCooldown = false;
     public KeyCode ability1;
+    public DisparoTorreta disparoTorreta;
+    public float time = 0.0f;
+    public float loopDuration = 20.0f;
 
     [Header("Ability 2")] //HABILIDAD 2
     public Image abilityImage2;
@@ -37,23 +40,35 @@ public class AbilitySystem : MonoBehaviour
         abilityImage2.fillAmount = 0;
         abilityImage3.fillAmount = 0;
         abilityImage4.fillAmount = 0;
+        disparoTorreta = FindObjectOfType<DisparoTorreta>();
     }
 
     void Update() //CADA FRAME SE LLAMA A LAS HABILIDADES EN EL CASO DE QUE HAYAN SIDO TRIGGEREADAS.
     {
-        Ability1();
+        StartCoroutine(Ability1());
         Ability2();
         Ability3();
         Ability4();
     }
 
 
-    void Ability1() //FUNCIÓN HABILIDAD 1
+    IEnumerator Ability1() //FUNCIÓN HABILIDAD 1
     {
         if (Input.GetKey(ability1) && isCooldown == false && habilitarAb == true) //ADENTRO DE ESTE IF SE COLOCA LA HABILIDAD O REFERENCIA AL SCRIPT DE LA HABILIDAD 1. (CONTROLA SI SE HA PRESIONADO LA HABILIDAD)
         {
             isCooldown = true;
             abilityImage1.fillAmount = 1;
+            do
+            {
+                disparoTorreta.shotRateTime = 15;
+                Debug.Log("HABILIDAD1");
+                time += Time.deltaTime;
+                yield return new WaitForEndOfFrame();
+            } while (time < loopDuration);
+
+            time = 0.0f;
+            disparoTorreta.shotRateTime = 5;
+            Debug.Log("HABILIDAD1 FINALIZADO");
         }
 
         if (isCooldown) //ESTE IF CONTROLA CUANDO INICIAR EL COOLDOWN.
@@ -67,6 +82,7 @@ public class AbilitySystem : MonoBehaviour
             }
         }
     }
+
     void Ability2()
     {
         if (Input.GetKey(ability2) && isCooldown2 == false && habilitarAb == true)
