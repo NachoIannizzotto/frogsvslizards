@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour
 {
+    public string levelToLoad = "SampleScene";
+
+    public SceneFader sceneFader;
+
     public void startgame()
     {
-        SceneManager.LoadScene("SampleScene");
+        sceneFader.FadeTo(levelToLoad);
     }
 }

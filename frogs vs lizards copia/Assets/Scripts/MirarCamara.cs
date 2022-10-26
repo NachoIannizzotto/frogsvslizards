@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class MirarCamara : MonoBehaviour
 {
-    public GameObject Camara;
+    [SerializeField]
+    private GameObject ObjectThatLooks;
+    [SerializeField]
+    private GameObject ObjectToLook;
+
+    private Vector3 ObjectToLookPosition;
+
     void Start()
     {
-        //Camara = FindObjectOfType<MirarVida>();
-        transform.LookAt(Camara.transform.position);
+        ObjectToLook = GameObject.FindGameObjectWithTag("Mirar");
+    }
+
+    void FixedUpdate()
+    {
+        lookAtObject ();
+    }
+
+    private void lookAtObject()
+    {
+        ObjectToLookPosition = ObjectToLook.transform.position;
+        ObjectThatLooks.transform.LookAt(ObjectToLookPosition);
     }
 }
