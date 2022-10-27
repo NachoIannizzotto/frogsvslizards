@@ -9778,12 +9778,12 @@ MonoBehaviour:
     costeUpgrade: 600
   misiles:
     prefab: {fileID: 5331293421699829243, guid: 5b78a16f51f8b7a44a9073d970b979d9, type: 3}
-    coste: 700
+    coste: 900
     prefabUpgrade: {fileID: 5331293421699829243, guid: 88fb5ab3782d8a946957084df04af9c4, type: 3}
-    costeUpgrade: 1200
+    costeUpgrade: 1600
   RayoLaser:
     prefab: {fileID: 869400902146433588, guid: a6e8456a02bc6e949be56562c70b3702, type: 3}
-    coste: 500
+    coste: 600
     prefabUpgrade: {fileID: 869400902146433588, guid: 15227a116093d91458946331c845f9e8, type: 3}
     costeUpgrade: 800
   HongoPlata:
@@ -18459,14 +18459,86 @@ MonoBehaviour:
   waves:
   - name: WAVE 1
     enemies:
-    - enemyTransform: {fileID: 27275453837297138, guid: c15cbb21c14862f42b83b2ec339ca4f9, type: 3}
-      count: 1
+    - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
+      count: 20
       rate: 1.5
-    - enemyTransform: {fileID: 7401045568745785527, guid: 0a2d427c61de38449811591b84360d3f, type: 3}
-      count: 1
+  - name: WAVE 2
+    enemies:
+    - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
+      count: 10
       rate: 1.5
-    - enemyTransform: {fileID: 727883201789527919, guid: dbb43d537ba507e498c68fe17c2cdaa2, type: 3}
-      count: 1
+    - enemyTransform: {fileID: 727883201789527919, guid: f1347a1cee0760e4ea9b28939e6c0843, type: 3}
+      count: 10
+      rate: 1.5
+  - name: WAVE 3
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: bbf4cbcd1fa48a24e8faab3eddd59728, type: 3}
+      count: 2
+      rate: 1.5
+    - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
+      count: 22
+      rate: 1.5
+  - name: WAVE 4
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: bbf4cbcd1fa48a24e8faab3eddd59728, type: 3}
+      count: 2
+      rate: 1.5
+    - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
+      count: 20
+      rate: 1.5
+    - enemyTransform: {fileID: 727883201789527919, guid: f1347a1cee0760e4ea9b28939e6c0843, type: 3}
+      count: 4
+      rate: 1.5
+  - name: WAVE 5
+    enemies:
+    - enemyTransform: {fileID: 7401045568745785527, guid: c9852c952af187f4e99103f0cd98c07e, type: 3}
+      count: 60
+      rate: 1.5
+  - name: WAVE 6
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
+      count: 4
+      rate: 1.5
+    - enemyTransform: {fileID: 7401045568745785527, guid: c05702d136b91104b96beaa2a438ee25, type: 3}
+      count: 25
+      rate: 1.5
+    - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
+      count: 6
+      rate: 1.5
+  - name: WAVE 7
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
+      count: 5
+      rate: 1.5
+    - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
+      count: 20
+      rate: 1.5
+  - name: WAVE 8
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
+      count: 5
+      rate: 1.5
+    - enemyTransform: {fileID: 7401045568745785527, guid: c05702d136b91104b96beaa2a438ee25, type: 3}
+      count: 15
+      rate: 1.5
+    - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
+      count: 15
+      rate: 1.5
+  - name: WAVE 9
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
+      count: 5
+      rate: 1.5
+    - enemyTransform: {fileID: 7401045568745785527, guid: c05702d136b91104b96beaa2a438ee25, type: 3}
+      count: 25
+      rate: 1.5
+    - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
+      count: 25
+      rate: 1.5
+  - name: WAVE 10
+    enemies:
+    - enemyTransform: {fileID: 27275453837297138, guid: 562f15c57a8be4a4388da4b738251eb9, type: 3}
+      count: 50
       rate: 1.5
   timeBetweenWaves: 5
   waveCountdown: 10

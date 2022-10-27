@@ -50,9 +50,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rango: 20
   balaPrefab: {fileID: 0}
-  cadencia: 1
+  cadencia: 3
   usarLaser: 1
-  danoPorTiempo: 50
+  danoPorTiempo: 35
   slowAmount: 0.5
   lineRenderer: {fileID: 7069108389870143875}
   EfectoImpacto: {fileID: 1423844130293753997}

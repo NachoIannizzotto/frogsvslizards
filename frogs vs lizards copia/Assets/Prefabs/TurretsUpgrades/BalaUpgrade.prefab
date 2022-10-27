@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7131934415195922572}
   - component: {fileID: -1716203030271203950}
   m_Layer: 0
-  m_Name: Bala
+  m_Name: BalaUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,6 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 70
-  damage: 20
+  damage: 24
   RadioExplosion: 0
   efectoImpacto: {fileID: 4919260717933586062, guid: 9e211f718e4c5a24fa621c31334a14a9, type: 3}

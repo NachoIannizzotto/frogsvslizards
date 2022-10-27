@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rango: 30
   balaPrefab: {fileID: 5101174379463344647, guid: f73d66cf95793964382e9d2f62f538b8, type: 3}
-  cadencia: 0.5
+  cadencia: 0.3
   usarLaser: 0
   danoPorTiempo: 30
   slowAmount: 0.5
