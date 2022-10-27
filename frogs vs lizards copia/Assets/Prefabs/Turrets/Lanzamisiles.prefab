@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2008622890147039603}
   - component: {fileID: 1789302323277756101}
   - component: {fileID: 4800030666435797537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 8182839480431966461}
   - component: {fileID: 6438008347908260279}
   - component: {fileID: 7529416432894960931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4404812070084264295}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rotador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5560763251004051085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8790882529276938661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: come_bolas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
