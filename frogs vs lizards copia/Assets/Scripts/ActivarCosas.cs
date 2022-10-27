@@ -18,6 +18,20 @@ public class ActivarCosas : MonoBehaviour
         _torreta.SetActive(false);
 
     }
+
+    public void toggleMouse()
+    {
+        if (Cursor.lockState == CursorLockMode.None)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+    }
     public void activarTienda()
     {
         if (TiendaActivada == false)

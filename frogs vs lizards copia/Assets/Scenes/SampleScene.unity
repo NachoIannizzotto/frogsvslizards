@@ -6839,6 +6839,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1869745101}
+        m_TargetAssemblyTypeName: ActivarCosas, Assembly-CSharp
+        m_MethodName: toggleMouse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &739896776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9637,7 +9649,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -707, y: -371}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971017875
 MonoBehaviour:
@@ -19793,7 +19805,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -707, y: -370.99997}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953171975
 MonoBehaviour:
@@ -22366,7 +22378,7 @@ MonoBehaviour:
   barrels: {fileID: 4901016187467168}
   ElevationSpeed: 500
   MaxElevation: 40
-  MaxDepression: 12
+  MaxDepression: 40
   TraverseSpeed: 500
   hasLimitedTraverse: 1
   LeftLimit: 70
