@@ -1743,9 +1743,9 @@ RectTransform:
   m_Father: {fileID: 739896774}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 587.85, y: -428.46796}
   m_SizeDelta: {x: 100, y: 81.1253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135459268
@@ -6700,7 +6700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &739896774
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16540,7 +16540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1669935640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16556,9 +16556,9 @@ RectTransform:
   m_Father: {fileID: 1895531365}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1833.0477, y: -1049.395}
   m_SizeDelta: {x: 173.9045, y: 61.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669935641
@@ -18460,7 +18460,7 @@ MonoBehaviour:
   - name: WAVE 1
     enemies:
     - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
-      count: 20
+      count: 12
       rate: 1.5
   - name: WAVE 2
     enemies:
@@ -18540,7 +18540,7 @@ MonoBehaviour:
     - enemyTransform: {fileID: 27275453837297138, guid: 562f15c57a8be4a4388da4b738251eb9, type: 3}
       count: 50
       rate: 1.5
-  timeBetweenWaves: 5
+  timeBetweenWaves: 20
   waveCountdown: 10
   oleadaCountdownText: {fileID: 179281747}
   VictoriaUI: {fileID: 1346975725}
@@ -18875,7 +18875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1895531362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27021,19 +27021,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9918cf1b4f8ad849b2bdb452dda1cce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
-  range: 300
+  damage: 30
+  range: 1000
   nextshotRate: 0
   shotRateTime: 5
   turretCam: {fileID: 791693679}
   raycastHits: {x: 0, y: 0, z: 0}
-  maxAmmo: 500
+  maxAmmo: 1000000
   reloadTime: 3
   MuzzleL: {fileID: 8446220045206349802}
   MuzzleR: {fileID: 80195736}
   Muzzling: 0
   gunBarrellL: {fileID: 2045191428}
-  gunBarrellR: {fileID: 80195734}
+  gunBarrellR: {fileID: 1507587005}
   bulletTrail: {fileID: 6670010285891972953, guid: be5ec9ddc3537524a8a540b96d2bedb1, type: 3}
   BulletTrailSuper: {fileID: 6670010285891972953, guid: 82979ed15971f284cb223a2141363015, type: 3}
   abilitySystem: {fileID: 1505368750}
