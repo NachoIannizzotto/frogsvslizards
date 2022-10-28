@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GT2.Demo;
  
-public class cameramanager : MonoBehaviour
+public class cameramanagerMenu : MonoBehaviour
 {
 
     public GameObject[] Cameras;
@@ -12,11 +12,12 @@ public class cameramanager : MonoBehaviour
     public BuildManager buildManager;
     public ActivarCosas activarCosas;
     public TurretController turretController;
+
+    //Metodos Llamados//
+    public PlayScript playScript;
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
         currentCam = 0;
         setCam(currentCam);
         buildManager = FindObjectOfType<BuildManager>();
@@ -27,7 +28,30 @@ public class cameramanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CambioCamara();
+        if (currentCam==0)
+        {
+            if (Cursor.lockState == CursorLockMode.None)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+
+        }
+
+        // if (playScript.levelToLoad=="SampleScene")
+        // {
+        //
+        //     buildManager.DeseleccionarNode();
+        //     activarCosas.activarTorreta();
+        //     activarCosas.activarTienda();
+        //     activarCosas.activarMunicion();
+        //     activarCosas.toggleMouse();
+        //     turretController.Idler();
+        // }
+
+
+
+
     }
 
     public void setCam(int idx){
@@ -38,26 +62,5 @@ public class cameramanager : MonoBehaviour
                 Cameras[i].SetActive(false);
             }
         }
-    }
-
-    public void toggleCam(){
-        currentCam++;
-        if(currentCam > Cameras.Length-1)
-            currentCam = 0;
-        setCam(currentCam);
-    }
-
-    public void CambioCamara()
-    {
-        if (Input.GetButtonDown("Jump"))
-        {
-            toggleCam();
-            buildManager.DeseleccionarNode();
-            activarCosas.activarTorreta();
-            activarCosas.activarTienda();
-            activarCosas.activarMunicion();
-            activarCosas.toggleMouse();
-            turretController.Idler();
-        }
-    }
+    } 
 }

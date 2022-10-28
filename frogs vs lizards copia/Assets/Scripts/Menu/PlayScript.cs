@@ -14,4 +14,9 @@ public class PlayScript : MonoBehaviour
     {
         sceneFader.FadeTo(levelToLoad);
     }
+
+    public void leftGame()
+    {
+        Application.Quit();
+    }
 }
