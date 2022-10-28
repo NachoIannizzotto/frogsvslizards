@@ -21714,7 +21714,7 @@ MonoBehaviour:
       count: 50
       rate: 1.5
   timeBetweenWaves: 20
-  waveCountdown: 10
+  waveCountdown: 40
   oleadaCountdownText: {fileID: 179281747}
   VictoriaUI: {fileID: 1346975725}
 --- !u!114 &1869745103
