@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 978209756087165827}
   - component: {fileID: 978209756087165825}
   - component: {fileID: 978209756087165830}
+  - component: {fileID: -3508982797134127914}
   m_Layer: 0
   m_Name: Ladron10
   m_TagString: Enemy
@@ -102,6 +103,18 @@ MonoBehaviour:
   vidaInicial: 105
   value: 35
   BarraVida: {fileID: 478745021, guid: 88219ed52986dea4fa1994680c00f844, type: 3}
+--- !u!114 &-3508982797134127914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95179528901746133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7180d62c67833cf44929910f70297835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &290420710430341612
 GameObject:
   m_ObjectHideFlags: 0

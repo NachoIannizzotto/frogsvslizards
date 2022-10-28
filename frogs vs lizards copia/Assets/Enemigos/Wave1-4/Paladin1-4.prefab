@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 570373428168289482}
   - component: {fileID: 570373428168289480}
   - component: {fileID: 570373428168289481}
+  - component: {fileID: 7632248022762878521}
   m_Layer: 0
   m_Name: Paladin1-4
   m_TagString: Enemy
@@ -134,6 +135,18 @@ MonoBehaviour:
   vidaInicial: 500
   value: 180
   BarraVida: {fileID: 155632747221725798}
+--- !u!114 &7632248022762878521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804796666577100616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7180d62c67833cf44929910f70297835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1441757826647338851
 GameObject:
   m_ObjectHideFlags: 0

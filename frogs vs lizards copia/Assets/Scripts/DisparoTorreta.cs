@@ -29,6 +29,9 @@ public class DisparoTorreta : MonoBehaviour
     public VisualEffect MuzzleL;
     public VisualEffect MuzzleR;
     public bool Muzzling = false;
+    public GameObject waterImpactVFX;
+    public GameObject woodImpactVFX;
+    public GameObject bloodImpactVFX;
     
     
     //Trazado de balas//
@@ -112,6 +115,25 @@ public class DisparoTorreta : MonoBehaviour
             if (PlayScript != null)
             {
                 PlayScript.startgame();
+            }
+            //IMPACTOS
+            Water Water = hit.transform.GetComponent<Water>();
+            if (Water != null)
+            {
+                GameObject waterImpact = Instantiate(waterImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
+                Destroy(waterImpact, 2f);
+            }
+            Wood Wood = hit.transform.GetComponent<Wood>();
+            if (Wood != null)
+            {
+                GameObject woodImpact = Instantiate(woodImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
+                Destroy(woodImpactVFX, 2f);
+            }
+            Blood Blood = hit.transform.GetComponent<Blood>();
+            if (Blood != null)
+            {
+                GameObject bloodImpact = Instantiate(bloodImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
+                Destroy(bloodImpactVFX, 1f);
             }
         }
         Muzzling = !Muzzling;

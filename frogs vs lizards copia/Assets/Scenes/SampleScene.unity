@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 5310299}
   - component: {fileID: 5310298}
   - component: {fileID: 5310300}
+  - component: {fileID: 5310301}
   m_Layer: 0
   m_Name: Suelo Madera (18)
   m_TagString: Untagged
@@ -265,6 +266,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &5310301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &14884522 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5187492474324732875, guid: 171961d59903b80459d048f1cc380748, type: 3}
@@ -322,6 +335,7 @@ GameObject:
   - component: {fileID: 16512335}
   - component: {fileID: 16512334}
   - component: {fileID: 16512333}
+  - component: {fileID: 16512336}
   m_Layer: 0
   m_Name: Suelo Madera (36)
   m_TagString: Untagged
@@ -407,6 +421,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16512331}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &16512336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16512331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &26794099
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +445,7 @@ GameObject:
   - component: {fileID: 26794102}
   - component: {fileID: 26794101}
   - component: {fileID: 26794103}
+  - component: {fileID: 26794104}
   m_Layer: 0
   m_Name: Suelo Madera (24)
   m_TagString: Untagged
@@ -504,6 +531,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &26794104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26794099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &29386951
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +661,7 @@ GameObject:
   - component: {fileID: 55636008}
   - component: {fileID: 55636007}
   - component: {fileID: 55636009}
+  - component: {fileID: 55636010}
   m_Layer: 0
   m_Name: Suelo Madera (26)
   m_TagString: Untagged
@@ -707,6 +747,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &55636010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55636005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &65721904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -858,6 +910,7 @@ GameObject:
   - component: {fileID: 75116282}
   - component: {fileID: 75116284}
   - component: {fileID: 75116283}
+  - component: {fileID: 75116285}
   m_Layer: 0
   m_Name: path.007
   m_TagString: Untagged
@@ -930,6 +983,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75116281}
   m_Mesh: {fileID: -597294824921776660, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &75116285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75116281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &77624191
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1007,7 @@ GameObject:
   - component: {fileID: 77624194}
   - component: {fileID: 77624193}
   - component: {fileID: 77624195}
+  - component: {fileID: 77624196}
   m_Layer: 0
   m_Name: Suelo Madera (6)
   m_TagString: Untagged
@@ -1027,6 +1093,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &77624196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77624191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &77845786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,6 +1501,7 @@ GameObject:
   - component: {fileID: 96351232}
   - component: {fileID: 96351234}
   - component: {fileID: 96351233}
+  - component: {fileID: 96351235}
   m_Layer: 0
   m_Name: path
   m_TagString: Untagged
@@ -1495,6 +1574,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96351231}
   m_Mesh: {fileID: 6922016292642777366, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &96351235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96351231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98557778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,6 +1597,7 @@ GameObject:
   - component: {fileID: 98557779}
   - component: {fileID: 98557781}
   - component: {fileID: 98557780}
+  - component: {fileID: 98557782}
   m_Layer: 0
   m_Name: path.005
   m_TagString: Untagged
@@ -1578,6 +1670,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98557778}
   m_Mesh: {fileID: -8844710620393806705, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &98557782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98557778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100053277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1798,6 +1902,7 @@ GameObject:
   - component: {fileID: 137767976}
   - component: {fileID: 137767975}
   - component: {fileID: 137767974}
+  - component: {fileID: 137767977}
   m_Layer: 0
   m_Name: Suelo Madera (15)
   m_TagString: Untagged
@@ -1883,6 +1988,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137767972}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &137767977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137767972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &153327875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,6 +2256,7 @@ GameObject:
   - component: {fileID: 218885694}
   - component: {fileID: 218885693}
   - component: {fileID: 218885695}
+  - component: {fileID: 218885696}
   m_Layer: 0
   m_Name: Suelo Madera (70)
   m_TagString: Untagged
@@ -2224,6 +2342,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &218885696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218885691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &220298486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2651,7 @@ GameObject:
   - component: {fileID: 232718979}
   - component: {fileID: 232718981}
   - component: {fileID: 232718980}
+  - component: {fileID: 232718982}
   m_Layer: 0
   m_Name: path
   m_TagString: Untagged
@@ -2593,6 +2724,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232718978}
   m_Mesh: {fileID: 6922016292642777366, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &232718982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232718978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &234421217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3338000454341468562, guid: 02efc249fcc5941408f0a1b22da6f068, type: 3}
@@ -2693,6 +2836,7 @@ GameObject:
   - component: {fileID: 241532939}
   - component: {fileID: 241532938}
   - component: {fileID: 241532937}
+  - component: {fileID: 241532940}
   m_Layer: 0
   m_Name: Suelo Madera (20)
   m_TagString: Untagged
@@ -2778,6 +2922,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241532935}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &241532940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241532935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &246139631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,6 +3079,7 @@ GameObject:
   - component: {fileID: 270089468}
   - component: {fileID: 270089467}
   - component: {fileID: 270089466}
+  - component: {fileID: 270089469}
   m_Layer: 0
   m_Name: Suelo Madera (37)
   m_TagString: Untagged
@@ -3008,6 +3165,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270089464}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &270089469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270089464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &284091646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,6 +3592,7 @@ GameObject:
   - component: {fileID: 314029290}
   - component: {fileID: 314029289}
   - component: {fileID: 314029291}
+  - component: {fileID: 314029292}
   m_Layer: 0
   m_Name: Suelo Madera (27)
   m_TagString: Untagged
@@ -3508,6 +3678,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &314029292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314029287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &314634449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,6 +3825,7 @@ GameObject:
   - component: {fileID: 347943492}
   - component: {fileID: 347943491}
   - component: {fileID: 347943490}
+  - component: {fileID: 347943493}
   m_Layer: 0
   m_Name: Suelo Madera (59)
   m_TagString: Untagged
@@ -3728,6 +3911,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347943488}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &347943493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347943488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &364747122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,6 +4094,7 @@ Transform:
   - {fileID: 1931842934}
   - {fileID: 385343591}
   - {fileID: 1767532900}
+  - {fileID: 1513617080}
   m_Father: {fileID: 1414639945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3912,6 +4108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385343591}
   - component: {fileID: 385343592}
+  - component: {fileID: 385343593}
   m_Layer: 0
   m_Name: Madera desarmada (5)
   m_TagString: Untagged
@@ -3955,6 +4152,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &385343593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385343590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &414479659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7243220638411196642, guid: 1d2c40054a661fb458007a78b009c918, type: 3}
@@ -3971,6 +4180,7 @@ GameObject:
   - component: {fileID: 414920013}
   - component: {fileID: 414920015}
   - component: {fileID: 414920014}
+  - component: {fileID: 414920016}
   m_Layer: 0
   m_Name: path.007
   m_TagString: Untagged
@@ -4043,6 +4253,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414920012}
   m_Mesh: {fileID: -597294824921776660, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &414920016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414920012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &415957960 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 599533057775050532, guid: dbb43d537ba507e498c68fe17c2cdaa2, type: 3}
@@ -4066,6 +4288,7 @@ GameObject:
   - component: {fileID: 416737593}
   - component: {fileID: 416737592}
   - component: {fileID: 416737594}
+  - component: {fileID: 416737595}
   m_Layer: 0
   m_Name: Suelo Madera (7)
   m_TagString: Untagged
@@ -4151,6 +4374,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &416737595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416737590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &421842957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,6 +4397,7 @@ GameObject:
   - component: {fileID: 421842958}
   - component: {fileID: 421842960}
   - component: {fileID: 421842959}
+  - component: {fileID: 421842961}
   m_Layer: 0
   m_Name: path.005
   m_TagString: Untagged
@@ -4234,6 +4470,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421842957}
   m_Mesh: {fileID: -8844710620393806705, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &421842961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421842957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427962023
 GameObject:
   m_ObjectHideFlags: 0
@@ -4570,6 +4818,7 @@ GameObject:
   - component: {fileID: 487365331}
   - component: {fileID: 487365330}
   - component: {fileID: 487365329}
+  - component: {fileID: 487365332}
   m_Layer: 0
   m_Name: Suelo Madera (48)
   m_TagString: Untagged
@@ -4655,6 +4904,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487365327}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &487365332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487365327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &492167418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,6 +5007,7 @@ GameObject:
   - component: {fileID: 496251025}
   - component: {fileID: 496251024}
   - component: {fileID: 496251023}
+  - component: {fileID: 496251026}
   m_Layer: 0
   m_Name: Suelo Madera (38)
   m_TagString: Untagged
@@ -4831,6 +5093,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496251021}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &496251026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496251021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &505051240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4900,6 +5174,7 @@ GameObject:
   - component: {fileID: 509461839}
   - component: {fileID: 509461838}
   - component: {fileID: 509461837}
+  - component: {fileID: 509461840}
   m_Layer: 0
   m_Name: Suelo Madera (39)
   m_TagString: Untagged
@@ -4985,6 +5260,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509461835}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &509461840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509461835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &511569990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5377,6 +5664,7 @@ GameObject:
   - component: {fileID: 588227388}
   - component: {fileID: 588227390}
   - component: {fileID: 588227389}
+  - component: {fileID: 588227391}
   m_Layer: 0
   m_Name: path.004
   m_TagString: Untagged
@@ -5449,6 +5737,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588227387}
   m_Mesh: {fileID: -3588081326644264615, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &588227391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588227387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &589079151
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,6 +5913,7 @@ GameObject:
   - component: {fileID: 603452323}
   - component: {fileID: 603452322}
   - component: {fileID: 603452324}
+  - component: {fileID: 603452325}
   m_Layer: 0
   m_Name: Suelo Madera (10)
   m_TagString: Untagged
@@ -5698,6 +5999,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &603452325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603452320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619684709
 GameObject:
   m_ObjectHideFlags: 0
@@ -6481,6 +6794,7 @@ GameObject:
   - component: {fileID: 704053303}
   - component: {fileID: 704053302}
   - component: {fileID: 704053304}
+  - component: {fileID: 704053305}
   m_Layer: 0
   m_Name: Suelo Madera (30)
   m_TagString: Untagged
@@ -6566,6 +6880,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &704053305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704053300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,6 +7018,7 @@ GameObject:
   - component: {fileID: 710353336}
   - component: {fileID: 710353338}
   - component: {fileID: 710353337}
+  - component: {fileID: 710353339}
   m_Layer: 0
   m_Name: path.003
   m_TagString: Untagged
@@ -6764,6 +7091,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710353335}
   m_Mesh: {fileID: -3497114003535233426, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &710353339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710353335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &712132610
 GameObject:
   m_ObjectHideFlags: 0
@@ -6776,6 +7115,7 @@ GameObject:
   - component: {fileID: 712132613}
   - component: {fileID: 712132612}
   - component: {fileID: 712132614}
+  - component: {fileID: 712132615}
   m_Layer: 0
   m_Name: Suelo Madera (22)
   m_TagString: Untagged
@@ -6861,6 +7201,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &712132615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712132610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &726199614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6952,6 +7304,7 @@ GameObject:
   - component: {fileID: 738388832}
   - component: {fileID: 738388834}
   - component: {fileID: 738388833}
+  - component: {fileID: 738388835}
   m_Layer: 0
   m_Name: path.004
   m_TagString: Untagged
@@ -7024,6 +7377,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738388831}
   m_Mesh: {fileID: -3588081326644264615, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &738388835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738388831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &739896773
 GameObject:
   m_ObjectHideFlags: 0
@@ -7411,6 +7776,7 @@ GameObject:
   - component: {fileID: 770299776}
   - component: {fileID: 770299775}
   - component: {fileID: 770299774}
+  - component: {fileID: 770299777}
   m_Layer: 0
   m_Name: Suelo Madera (16)
   m_TagString: Untagged
@@ -7496,6 +7862,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770299772}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &770299777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770299772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &776801353
 GameObject:
   m_ObjectHideFlags: 0
@@ -7507,6 +7885,7 @@ GameObject:
   - component: {fileID: 776801354}
   - component: {fileID: 776801356}
   - component: {fileID: 776801355}
+  - component: {fileID: 776801357}
   m_Layer: 0
   m_Name: path.003
   m_TagString: Untagged
@@ -7579,6 +7958,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776801353}
   m_Mesh: {fileID: -3497114003535233426, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &776801357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776801353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &781982977
 GameObject:
   m_ObjectHideFlags: 0
@@ -7590,6 +7981,7 @@ GameObject:
   - component: {fileID: 781982978}
   - component: {fileID: 781982980}
   - component: {fileID: 781982979}
+  - component: {fileID: 781982981}
   m_Layer: 0
   m_Name: path.006
   m_TagString: Untagged
@@ -7662,6 +8054,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781982977}
   m_Mesh: {fileID: 2335133973135155814, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &781982981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781982977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &782717995
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,6 +8078,7 @@ GameObject:
   - component: {fileID: 782717998}
   - component: {fileID: 782717997}
   - component: {fileID: 782717999}
+  - component: {fileID: 782718000}
   m_Layer: 0
   m_Name: Suelo Madera (23)
   m_TagString: Untagged
@@ -7759,6 +8164,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &782718000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782717995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &783732681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8194,6 +8611,7 @@ GameObject:
   - component: {fileID: 791877513}
   - component: {fileID: 791877515}
   - component: {fileID: 791877514}
+  - component: {fileID: 791877516}
   m_Layer: 0
   m_Name: path
   m_TagString: Untagged
@@ -8266,6 +8684,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791877512}
   m_Mesh: {fileID: 6922016292642777366, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &791877516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791877512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791989208
 GameObject:
   m_ObjectHideFlags: 0
@@ -8538,6 +8968,7 @@ GameObject:
   - component: {fileID: 801178584}
   - component: {fileID: 801178583}
   - component: {fileID: 801178582}
+  - component: {fileID: 801178585}
   m_Layer: 0
   m_Name: Suelo Madera (45)
   m_TagString: Untagged
@@ -8623,6 +9054,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801178580}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &801178585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801178580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &804081365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7243220638411196642, guid: 1d2c40054a661fb458007a78b009c918, type: 3}
@@ -9175,6 +9618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857927545}
   - component: {fileID: 857927546}
+  - component: {fileID: 857927547}
   m_Layer: 0
   m_Name: Madera desarmada (1)
   m_TagString: Untagged
@@ -9218,6 +9662,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &857927547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857927544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &870126930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9369,6 +9825,7 @@ GameObject:
   - component: {fileID: 909926154}
   - component: {fileID: 909926156}
   - component: {fileID: 909926155}
+  - component: {fileID: 909926157}
   m_Layer: 0
   m_Name: path.001
   m_TagString: Untagged
@@ -9441,6 +9898,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909926153}
   m_Mesh: {fileID: 5243102140275438089, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &909926157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909926153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &924014584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9453,6 +9922,8 @@ GameObject:
   - component: {fileID: 924014588}
   - component: {fileID: 924014587}
   - component: {fileID: 924014586}
+  - component: {fileID: 924014589}
+  - component: {fileID: 924014590}
   m_Layer: 6
   m_Name: PlanoTierra
   m_TagString: Untagged
@@ -9538,6 +10009,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924014584}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &924014589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924014584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ab3b408eaa98048a9cffaa959fa4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &924014590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924014584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &926316218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7243220638411196642, guid: 1d2c40054a661fb458007a78b009c918, type: 3}
@@ -9688,6 +10183,7 @@ GameObject:
   - component: {fileID: 945515020}
   - component: {fileID: 945515019}
   - component: {fileID: 945515021}
+  - component: {fileID: 945515022}
   m_Layer: 0
   m_Name: Suelo Madera (19)
   m_TagString: Untagged
@@ -9773,6 +10269,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &945515022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945515017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &946275528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10675,6 +11183,7 @@ GameObject:
   - component: {fileID: 1005827063}
   - component: {fileID: 1005827062}
   - component: {fileID: 1005827061}
+  - component: {fileID: 1005827064}
   m_Layer: 0
   m_Name: Suelo Madera (47)
   m_TagString: Untagged
@@ -10760,6 +11269,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005827059}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1005827064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005827059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1021961551
 GameObject:
   m_ObjectHideFlags: 0
@@ -10772,6 +11293,7 @@ GameObject:
   - component: {fileID: 1021961555}
   - component: {fileID: 1021961554}
   - component: {fileID: 1021961553}
+  - component: {fileID: 1021961556}
   m_Layer: 0
   m_Name: Suelo Madera (46)
   m_TagString: Untagged
@@ -10857,6 +11379,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021961551}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1021961556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021961551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1023659803
 GameObject:
   m_ObjectHideFlags: 0
@@ -11091,6 +11625,7 @@ GameObject:
   - component: {fileID: 1079758386}
   - component: {fileID: 1079758385}
   - component: {fileID: 1079758387}
+  - component: {fileID: 1079758388}
   m_Layer: 0
   m_Name: Suelo Madera (17)
   m_TagString: Untagged
@@ -11176,6 +11711,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1079758388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079758383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1080964970
 GameObject:
   m_ObjectHideFlags: 0
@@ -11313,6 +11860,7 @@ GameObject:
   - component: {fileID: 1084844012}
   - component: {fileID: 1084844011}
   - component: {fileID: 1084844010}
+  - component: {fileID: 1084844013}
   m_Layer: 0
   m_Name: Suelo Madera (33)
   m_TagString: Untagged
@@ -11398,6 +11946,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084844008}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1084844013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084844008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1090369948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5187492474324732875, guid: 171961d59903b80459d048f1cc380748, type: 3}
@@ -11755,6 +12315,7 @@ GameObject:
   - component: {fileID: 1148714368}
   - component: {fileID: 1148714367}
   - component: {fileID: 1148714369}
+  - component: {fileID: 1148714370}
   m_Layer: 0
   m_Name: Suelo Madera (31)
   m_TagString: Untagged
@@ -11840,6 +12401,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1148714370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148714365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1155951657
 GameObject:
   m_ObjectHideFlags: 0
@@ -11852,6 +12425,7 @@ GameObject:
   - component: {fileID: 1155951661}
   - component: {fileID: 1155951660}
   - component: {fileID: 1155951659}
+  - component: {fileID: 1155951662}
   m_Layer: 0
   m_Name: Suelo Madera (41)
   m_TagString: Untagged
@@ -11937,6 +12511,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155951657}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1155951662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155951657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1160116050
 GameObject:
   m_ObjectHideFlags: 0
@@ -11949,6 +12535,7 @@ GameObject:
   - component: {fileID: 1160116053}
   - component: {fileID: 1160116052}
   - component: {fileID: 1160116054}
+  - component: {fileID: 1160116055}
   m_Layer: 0
   m_Name: Suelo Madera (29)
   m_TagString: Untagged
@@ -12034,6 +12621,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1160116055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160116050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1163824190
 GameObject:
   m_ObjectHideFlags: 0
@@ -13211,6 +13810,7 @@ GameObject:
   - component: {fileID: 1248186268}
   - component: {fileID: 1248186267}
   - component: {fileID: 1248186269}
+  - component: {fileID: 1248186270}
   m_Layer: 0
   m_Name: Suelo Madera (9)
   m_TagString: Untagged
@@ -13296,6 +13896,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1248186270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248186265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1249488030
 GameObject:
   m_ObjectHideFlags: 0
@@ -13308,6 +13920,7 @@ GameObject:
   - component: {fileID: 1249488034}
   - component: {fileID: 1249488033}
   - component: {fileID: 1249488032}
+  - component: {fileID: 1249488035}
   m_Layer: 0
   m_Name: Suelo Madera (32)
   m_TagString: Untagged
@@ -13393,6 +14006,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249488030}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1249488035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249488030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1256142348
 GameObject:
   m_ObjectHideFlags: 0
@@ -13869,6 +14494,7 @@ GameObject:
   - component: {fileID: 1288722764}
   - component: {fileID: 1288722763}
   - component: {fileID: 1288722762}
+  - component: {fileID: 1288722765}
   m_Layer: 0
   m_Name: Suelo Madera (34)
   m_TagString: Untagged
@@ -13954,6 +14580,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288722760}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1288722765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288722760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1288959639
 GameObject:
   m_ObjectHideFlags: 0
@@ -13966,6 +14604,7 @@ GameObject:
   - component: {fileID: 1288959642}
   - component: {fileID: 1288959641}
   - component: {fileID: 1288959643}
+  - component: {fileID: 1288959644}
   m_Layer: 0
   m_Name: Suelo Madera (14)
   m_TagString: Untagged
@@ -14051,6 +14690,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1288959644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288959639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1298279608
 GameObject:
   m_ObjectHideFlags: 0
@@ -14062,6 +14713,7 @@ GameObject:
   - component: {fileID: 1298279609}
   - component: {fileID: 1298279611}
   - component: {fileID: 1298279610}
+  - component: {fileID: 1298279612}
   m_Layer: 0
   m_Name: path.002
   m_TagString: Untagged
@@ -14134,6 +14786,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298279608}
   m_Mesh: {fileID: -4886391218434548839, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1298279612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298279608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1307088682
 GameObject:
   m_ObjectHideFlags: 0
@@ -14145,6 +14809,7 @@ GameObject:
   - component: {fileID: 1307088683}
   - component: {fileID: 1307088685}
   - component: {fileID: 1307088684}
+  - component: {fileID: 1307088686}
   m_Layer: 0
   m_Name: path.007
   m_TagString: Untagged
@@ -14217,6 +14882,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307088682}
   m_Mesh: {fileID: -597294824921776660, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1307088686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307088682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1329951884
 GameObject:
   m_ObjectHideFlags: 0
@@ -14229,6 +14906,7 @@ GameObject:
   - component: {fileID: 1329951887}
   - component: {fileID: 1329951886}
   - component: {fileID: 1329951888}
+  - component: {fileID: 1329951889}
   m_Layer: 0
   m_Name: Suelo Madera (71)
   m_TagString: Untagged
@@ -14314,6 +14992,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1329951889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329951884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1337652980
 GameObject:
   m_ObjectHideFlags: 0
@@ -14480,6 +15170,7 @@ GameObject:
   - component: {fileID: 1349495016}
   - component: {fileID: 1349495015}
   - component: {fileID: 1349495017}
+  - component: {fileID: 1349495018}
   m_Layer: 0
   m_Name: Suelo Madera (4)
   m_TagString: Untagged
@@ -14565,6 +15256,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1349495018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349495013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1359069915
 GameObject:
   m_ObjectHideFlags: 0
@@ -15141,6 +15844,7 @@ GameObject:
   - component: {fileID: 1382511511}
   - component: {fileID: 1382511510}
   - component: {fileID: 1382511512}
+  - component: {fileID: 1382511513}
   m_Layer: 0
   m_Name: Suelo Madera (13)
   m_TagString: Untagged
@@ -15226,6 +15930,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1382511513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382511508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1384818829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15308,6 +16024,7 @@ GameObject:
   - component: {fileID: 1385372514}
   - component: {fileID: 1385372513}
   - component: {fileID: 1385372512}
+  - component: {fileID: 1385372515}
   m_Layer: 0
   m_Name: Suelo Madera (44)
   m_TagString: Untagged
@@ -15393,6 +16110,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385372510}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1385372515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385372510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1393017571
 GameObject:
   m_ObjectHideFlags: 0
@@ -16031,6 +16760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470351102}
   - component: {fileID: 1470351103}
+  - component: {fileID: 1470351104}
   m_Layer: 0
   m_Name: Madera desarmada (3)
   m_TagString: Untagged
@@ -16074,6 +16804,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &1470351104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470351101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1486198588
 GameObject:
   m_ObjectHideFlags: 0
@@ -16581,6 +17323,64 @@ Transform:
   m_Father: {fileID: 572879201}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1513617079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513617080}
+  - component: {fileID: 1513617082}
+  - component: {fileID: 1513617081}
+  m_Layer: 0
+  m_Name: WaterCollision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513617080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513617079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: -16.486, z: 44.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 383561542}
+  m_RootOrder: 60
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513617081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513617079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ab3b408eaa98048a9cffaa959fa4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1513617082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513617079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 149.29898, y: 1, z: 166.62167}
+  m_Center: {x: -18.003448, y: 0, z: 46.670914}
 --- !u!4 &1521838915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7243220638411196642, guid: 1d2c40054a661fb458007a78b009c918, type: 3}
@@ -16598,6 +17398,7 @@ GameObject:
   - component: {fileID: 1525359653}
   - component: {fileID: 1525359652}
   - component: {fileID: 1525359651}
+  - component: {fileID: 1525359654}
   m_Layer: 0
   m_Name: Suelo Madera (43)
   m_TagString: Untagged
@@ -16683,6 +17484,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525359649}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1525359654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525359649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1534481873
 GameObject:
   m_ObjectHideFlags: 0
@@ -16694,6 +17507,7 @@ GameObject:
   - component: {fileID: 1534481874}
   - component: {fileID: 1534481876}
   - component: {fileID: 1534481875}
+  - component: {fileID: 1534481877}
   m_Layer: 0
   m_Name: path.001
   m_TagString: Untagged
@@ -16766,6 +17580,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534481873}
   m_Mesh: {fileID: 5243102140275438089, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1534481877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534481873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1545672879
 GameObject:
   m_ObjectHideFlags: 0
@@ -16874,6 +17700,7 @@ GameObject:
   - component: {fileID: 1601855324}
   - component: {fileID: 1601855323}
   - component: {fileID: 1601855322}
+  - component: {fileID: 1601855325}
   m_Layer: 0
   m_Name: Suelo Madera (42)
   m_TagString: Untagged
@@ -16959,6 +17786,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601855320}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1601855325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601855320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616735605
 GameObject:
   m_ObjectHideFlags: 0
@@ -16971,6 +17810,7 @@ GameObject:
   - component: {fileID: 1616735608}
   - component: {fileID: 1616735607}
   - component: {fileID: 1616735609}
+  - component: {fileID: 1616735610}
   m_Layer: 0
   m_Name: Suelo Madera (5)
   m_TagString: Untagged
@@ -17056,6 +17896,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1616735610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616735605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1618444483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17972,6 +18824,7 @@ GameObject:
   - component: {fileID: 1684887018}
   - component: {fileID: 1684887020}
   - component: {fileID: 1684887019}
+  - component: {fileID: 1684887021}
   m_Layer: 0
   m_Name: path.002
   m_TagString: Untagged
@@ -18044,6 +18897,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684887017}
   m_Mesh: {fileID: -4886391218434548839, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1684887021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684887017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1688940426
 GameObject:
   m_ObjectHideFlags: 0
@@ -18349,6 +19214,7 @@ GameObject:
   - component: {fileID: 1744757149}
   - component: {fileID: 1744757148}
   - component: {fileID: 1744757147}
+  - component: {fileID: 1744757150}
   m_Layer: 0
   m_Name: Suelo Madera (40)
   m_TagString: Untagged
@@ -18434,6 +19300,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744757145}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1744757150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744757145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1757783120
 GameObject:
   m_ObjectHideFlags: 0
@@ -18597,6 +19475,7 @@ GameObject:
   - component: {fileID: 1763282021}
   - component: {fileID: 1763282020}
   - component: {fileID: 1763282019}
+  - component: {fileID: 1763282022}
   m_Layer: 0
   m_Name: Suelo Madera (49)
   m_TagString: Untagged
@@ -18682,6 +19561,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763282017}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1763282022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763282017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1764038778
 GameObject:
   m_ObjectHideFlags: 0
@@ -18694,6 +19585,7 @@ GameObject:
   - component: {fileID: 1764038781}
   - component: {fileID: 1764038780}
   - component: {fileID: 1764038782}
+  - component: {fileID: 1764038783}
   m_Layer: 0
   m_Name: Suelo Madera (25)
   m_TagString: Untagged
@@ -18779,6 +19671,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1764038783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764038778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1767532899
 GameObject:
   m_ObjectHideFlags: 0
@@ -18789,6 +19693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767532900}
   - component: {fileID: 1767532901}
+  - component: {fileID: 1767532902}
   m_Layer: 0
   m_Name: Madera desarmada (6)
   m_TagString: Untagged
@@ -18832,6 +19737,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &1767532902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767532899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1767713987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5817318051914264327, guid: a21847a0d3554dc4ea658543becdbc35, type: 3}
@@ -18943,6 +19860,7 @@ GameObject:
   - component: {fileID: 1775251640}
   - component: {fileID: 1775251639}
   - component: {fileID: 1775251641}
+  - component: {fileID: 1775251642}
   m_Layer: 0
   m_Name: Suelo Madera (28)
   m_TagString: Untagged
@@ -19028,6 +19946,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1775251642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775251637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1791038948
 GameObject:
   m_ObjectHideFlags: 0
@@ -19173,6 +20103,7 @@ GameObject:
   - component: {fileID: 1809150977}
   - component: {fileID: 1809150976}
   - component: {fileID: 1809150978}
+  - component: {fileID: 1809150979}
   m_Layer: 0
   m_Name: Suelo Madera (21)
   m_TagString: Untagged
@@ -19258,6 +20189,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1809150979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809150974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1820613085
 GameObject:
   m_ObjectHideFlags: 0
@@ -19482,6 +20425,7 @@ GameObject:
   - component: {fileID: 1829921503}
   - component: {fileID: 1829921505}
   - component: {fileID: 1829921504}
+  - component: {fileID: 1829921506}
   m_Layer: 0
   m_Name: path.003
   m_TagString: Untagged
@@ -19554,6 +20498,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829921502}
   m_Mesh: {fileID: -3497114003535233426, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1829921506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829921502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1849084732
 GameObject:
   m_ObjectHideFlags: 0
@@ -19565,6 +20521,7 @@ GameObject:
   - component: {fileID: 1849084733}
   - component: {fileID: 1849084735}
   - component: {fileID: 1849084734}
+  - component: {fileID: 1849084736}
   m_Layer: 0
   m_Name: path.006
   m_TagString: Untagged
@@ -19637,6 +20594,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849084732}
   m_Mesh: {fileID: 2335133973135155814, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1849084736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849084732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1857964832
 GameObject:
   m_ObjectHideFlags: 0
@@ -19812,10 +20781,10 @@ MonoBehaviour:
   TiendaActivada: 0
   TorretaActivada: 0
   MunicionActivada: 0
+  modo: 0
   _tienda: {fileID: 977291525}
   _torreta: {fileID: 1115284251434156}
   _municion: {fileID: 1895531361}
-  modo: 1
 --- !u!114 &1869745102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20144,6 +21113,7 @@ GameObject:
   - component: {fileID: 1891877988}
   - component: {fileID: 1891877987}
   - component: {fileID: 1891877989}
+  - component: {fileID: 1891877990}
   m_Layer: 0
   m_Name: Suelo Madera (11)
   m_TagString: Untagged
@@ -20229,6 +21199,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1891877990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891877985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1895531361
 GameObject:
   m_ObjectHideFlags: 0
@@ -20370,6 +21352,7 @@ GameObject:
   - component: {fileID: 1895567238}
   - component: {fileID: 1895567237}
   - component: {fileID: 1895567236}
+  - component: {fileID: 1895567239}
   m_Layer: 0
   m_Name: Suelo Madera (35)
   m_TagString: Untagged
@@ -20455,6 +21438,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895567234}
   m_Mesh: {fileID: -8678823145569952518, guid: 753afa0f57f40ee4bb29fb066372abd1, type: 3}
+--- !u!114 &1895567239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895567234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1904880471
 GameObject:
   m_ObjectHideFlags: 0
@@ -20466,6 +21461,7 @@ GameObject:
   - component: {fileID: 1904880472}
   - component: {fileID: 1904880474}
   - component: {fileID: 1904880473}
+  - component: {fileID: 1904880475}
   m_Layer: 0
   m_Name: path.006
   m_TagString: Untagged
@@ -20538,6 +21534,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904880471}
   m_Mesh: {fileID: 2335133973135155814, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1904880475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904880471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1916842165
 GameObject:
   m_ObjectHideFlags: 0
@@ -20735,6 +21743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1931842934}
   - component: {fileID: 1931842935}
+  - component: {fileID: 1931842936}
   m_Layer: 0
   m_Name: Madera desarmada (4)
   m_TagString: Untagged
@@ -20778,6 +21787,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &1931842936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931842933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935554340
 GameObject:
   m_ObjectHideFlags: 0
@@ -20790,6 +21811,7 @@ GameObject:
   - component: {fileID: 1935554343}
   - component: {fileID: 1935554342}
   - component: {fileID: 1935554344}
+  - component: {fileID: 1935554345}
   m_Layer: 0
   m_Name: Suelo Madera (1)
   m_TagString: Untagged
@@ -20875,6 +21897,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1935554345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935554340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1938050293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21795,6 +22829,7 @@ GameObject:
   - component: {fileID: 1987726744}
   - component: {fileID: 1987726746}
   - component: {fileID: 1987726745}
+  - component: {fileID: 1987726747}
   m_Layer: 0
   m_Name: path.002
   m_TagString: Untagged
@@ -21867,6 +22902,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987726743}
   m_Mesh: {fileID: -4886391218434548839, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &1987726747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987726743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1993923392
 GameObject:
   m_ObjectHideFlags: 0
@@ -21879,6 +22926,7 @@ GameObject:
   - component: {fileID: 1993923395}
   - component: {fileID: 1993923394}
   - component: {fileID: 1993923396}
+  - component: {fileID: 1993923397}
   m_Layer: 0
   m_Name: Suelo Madera (8)
   m_TagString: Untagged
@@ -21964,6 +23012,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &1993923397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993923392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2016834240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5187492474324732875, guid: 171961d59903b80459d048f1cc380748, type: 3}
@@ -22016,6 +23076,7 @@ GameObject:
   - component: {fileID: 2019806107}
   - component: {fileID: 2019806106}
   - component: {fileID: 2019806108}
+  - component: {fileID: 2019806109}
   m_Layer: 0
   m_Name: Suelo Madera (2)
   m_TagString: Untagged
@@ -22101,6 +23162,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &2019806109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019806104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2023334728 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 415092803691765189, guid: 9aa858753d669f94e9a7066299219f93, type: 3}
@@ -22260,6 +23333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041682332}
   - component: {fileID: 2041682333}
+  - component: {fileID: 2041682334}
   m_Layer: 0
   m_Name: Madera desarmada (2)
   m_TagString: Untagged
@@ -22303,6 +23377,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55020237, y: 0.34415337, z: 0.6264473}
   m_Center: {x: -0.005666256, y: -0.044214368, z: -0.0014837265}
+--- !u!114 &2041682334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041682331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2043634888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22569,6 +23655,7 @@ GameObject:
   - component: {fileID: 2065033269}
   - component: {fileID: 2065033271}
   - component: {fileID: 2065033270}
+  - component: {fileID: 2065033272}
   m_Layer: 0
   m_Name: path.004
   m_TagString: Untagged
@@ -22641,6 +23728,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065033268}
   m_Mesh: {fileID: -3588081326644264615, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &2065033272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065033268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067291879
 GameObject:
   m_ObjectHideFlags: 0
@@ -22811,6 +23910,7 @@ GameObject:
   - component: {fileID: 2075329667}
   - component: {fileID: 2075329669}
   - component: {fileID: 2075329668}
+  - component: {fileID: 2075329670}
   m_Layer: 0
   m_Name: path.001
   m_TagString: Untagged
@@ -22883,6 +23983,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075329666}
   m_Mesh: {fileID: 5243102140275438089, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &2075329670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075329666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2092790170
 GameObject:
   m_ObjectHideFlags: 0
@@ -23403,6 +24515,7 @@ GameObject:
   - component: {fileID: 2136962186}
   - component: {fileID: 2136962185}
   - component: {fileID: 2136962187}
+  - component: {fileID: 2136962188}
   m_Layer: 0
   m_Name: Suelo Madera (3)
   m_TagString: Untagged
@@ -23488,6 +24601,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &2136962188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136962183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2141080409
 GameObject:
   m_ObjectHideFlags: 0
@@ -23499,6 +24624,7 @@ GameObject:
   - component: {fileID: 2141080410}
   - component: {fileID: 2141080412}
   - component: {fileID: 2141080411}
+  - component: {fileID: 2141080413}
   m_Layer: 0
   m_Name: path.005
   m_TagString: Untagged
@@ -23571,6 +24697,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141080409}
   m_Mesh: {fileID: -8844710620393806705, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &2141080413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141080409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143112023
 GameObject:
   m_ObjectHideFlags: 0
@@ -23844,6 +24982,7 @@ GameObject:
   - component: {fileID: 6338674117563980646}
   - component: {fileID: 2600916464204378623}
   - component: {fileID: 1672217515109475297}
+  - component: {fileID: 6338674117563980647}
   m_Layer: 0
   m_Name: path.006
   m_TagString: Untagged
@@ -24118,6 +25257,7 @@ GameObject:
   - component: {fileID: 8012296068258175203}
   - component: {fileID: 6390070240051474237}
   - component: {fileID: 1042100551002950431}
+  - component: {fileID: 8012296068258175204}
   m_Layer: 0
   m_Name: path.003
   m_TagString: Untagged
@@ -25319,6 +26459,7 @@ GameObject:
   - component: {fileID: 1289265373514402502}
   - component: {fileID: 7684186227992529801}
   - component: {fileID: 6703875140885990700}
+  - component: {fileID: 7684186227992529802}
   m_Layer: 0
   m_Name: path.004
   m_TagString: Untagged
@@ -25931,6 +27072,7 @@ GameObject:
   - component: {fileID: 5468465225052019718}
   - component: {fileID: 677055091535675923}
   - component: {fileID: 8939528663220549208}
+  - component: {fileID: 8939528663220549209}
   m_Layer: 0
   m_Name: path
   m_TagString: Untagged
@@ -26876,6 +28018,7 @@ GameObject:
   - component: {fileID: 3322196437722342915}
   - component: {fileID: 6772773383305788560}
   - component: {fileID: 4157243139899079594}
+  - component: {fileID: 6772773383305788561}
   m_Layer: 0
   m_Name: path.007
   m_TagString: Untagged
@@ -27004,6 +28147,7 @@ GameObject:
   - component: {fileID: 81721491068756590}
   - component: {fileID: 2794098785745884836}
   - component: {fileID: 4926291097310656760}
+  - component: {fileID: 4926291097310656761}
   m_Layer: 0
   m_Name: Suelo Madera
   m_TagString: Untagged
@@ -27064,6 +28208,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0055003506, y: 0.006290291, z: 0.0033436688}
   m_Center: {x: -0.00007161737, y: 0.0000000014305116, z: -0.00044519856}
+--- !u!114 &4926291097310656761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4451349161946937201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4939989873517825979
 GameObject:
   m_ObjectHideFlags: 0
@@ -27167,6 +28323,7 @@ GameObject:
   - component: {fileID: 1242378025035813529}
   - component: {fileID: 3396993100724695726}
   - component: {fileID: 958751499241891507}
+  - component: {fileID: 5221441703252270913}
   m_Layer: 0
   m_Name: path.002
   m_TagString: Untagged
@@ -27174,6 +28331,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5221441703252270913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5221441703252270912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5301119357953866629
 GameObject:
   m_ObjectHideFlags: 0
@@ -27232,6 +28401,7 @@ GameObject:
   - component: {fileID: 3647584249884536741}
   - component: {fileID: 3564286883881612463}
   - component: {fileID: 3632068293612999375}
+  - component: {fileID: 5378646792177281513}
   m_Layer: 0
   m_Name: path.005
   m_TagString: Untagged
@@ -27239,6 +28409,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5378646792177281513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5378646792177281512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5468465225052019718
 Transform:
   m_ObjectHideFlags: 0
@@ -27375,6 +28557,7 @@ GameObject:
   - component: {fileID: 1138218485530897895}
   - component: {fileID: 4625035475735631887}
   - component: {fileID: 6277497659496282573}
+  - component: {fileID: 6277497659496282574}
   m_Layer: 0
   m_Name: path.001
   m_TagString: Untagged
@@ -27429,6 +28612,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6277497659496282574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982078195846264080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6306095565838663468
 Transform:
   m_ObjectHideFlags: 0
@@ -27459,6 +28654,18 @@ Transform:
   m_Father: {fileID: 7128875576927303075}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6338674117563980647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25015478832941153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &6390070240051474237
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -27533,6 +28740,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4046874302664151342}
   m_Mesh: {fileID: -597294824921776660, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &6772773383305788561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4046874302664151342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &6885620022637571694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28648,6 +29867,9 @@ MonoBehaviour:
   MuzzleL: {fileID: 8446220045206349802}
   MuzzleR: {fileID: 80195736}
   Muzzling: 0
+  waterImpactVFX: {fileID: 132290, guid: e49403f034d74ee44aa8a41b0ee4abfd, type: 3}
+  woodImpactVFX: {fileID: 4882073126219469475, guid: 9aef9b0206525f64c98bd58c7204a375, type: 3}
+  bloodImpactVFX: {fileID: 194062, guid: 8c27aeead6d968e4ba986702d6b84335, type: 3}
   gunBarrellL: {fileID: 2045191428}
   gunBarrellR: {fileID: 1507587005}
   bulletTrail: {fileID: 6670010285891972953, guid: be5ec9ddc3537524a8a540b96d2bedb1, type: 3}
@@ -29867,6 +31089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7128875576927303075}
   - component: {fileID: 523194748527685639}
+  - component: {fileID: 7612502004396846874}
   m_Layer: 0
   m_Name: Madera desarmada
   m_TagString: Untagged
@@ -29874,6 +31097,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7612502004396846874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612502004396846873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &7684186227992529801
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -29882,6 +31117,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911836194159503157}
   m_Mesh: {fileID: -3588081326644264615, guid: 0508b8a5f86711843ba53fb8cb64142e, type: 3}
+--- !u!114 &7684186227992529802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911836194159503157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7801413513425000398
 Transform:
   m_ObjectHideFlags: 0
@@ -29913,6 +31160,18 @@ Transform:
   m_Father: {fileID: 7128875576927303075}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8012296068258175204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980165677748684440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8237996186788234437
 GameObject:
   m_ObjectHideFlags: 0
@@ -30183,6 +31442,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8939528663220549209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780728004799798505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0386d8702f88349a05bf7c20fa38cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8999787891249902141
 GameObject:
   m_ObjectHideFlags: 0

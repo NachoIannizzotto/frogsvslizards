@@ -56,6 +56,7 @@ public class cameramanager : MonoBehaviour
             activarCosas.activarMunicion();
             activarCosas.toggleMouse();
             turretController.Idler();
+            activarCosas.toggleMode();
         }
     }
 }

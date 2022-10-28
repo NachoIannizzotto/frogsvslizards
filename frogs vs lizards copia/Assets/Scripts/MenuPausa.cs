@@ -21,10 +21,9 @@ public class MenuPausa : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape) && activarCosas.modo == false)
         {
             Toggle();
-            activarCosas.toggleMode();
         }
     }
 

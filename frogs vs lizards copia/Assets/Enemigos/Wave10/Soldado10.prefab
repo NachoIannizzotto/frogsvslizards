@@ -1112,6 +1112,7 @@ GameObject:
   - component: {fileID: 7007445742074462703}
   - component: {fileID: 7007445742074462697}
   - component: {fileID: 7007445742074462696}
+  - component: {fileID: -530853362626932187}
   m_Layer: 0
   m_Name: Soldado10
   m_TagString: Enemy
@@ -1202,6 +1203,18 @@ MonoBehaviour:
   vidaInicial: 200
   value: 25
   BarraVida: {fileID: 7007445741022469371}
+--- !u!114 &-530853362626932187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7925802183593955853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7180d62c67833cf44929910f70297835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8321067142204087503
 GameObject:
   m_ObjectHideFlags: 0
