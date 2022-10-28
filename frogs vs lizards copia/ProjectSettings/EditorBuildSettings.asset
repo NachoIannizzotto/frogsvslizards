@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Portada.unity
     guid: e5546021bb07e774d87128fadca2dd48
   - enabled: 1
+    path: Assets/Scenes/Video.unity
+    guid: 7b7dec842622fea43a56cd73b2de2090
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 60cfe3365339e77499f7ea4c2febda0a
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Video.unity
-    guid: 7b7dec842622fea43a56cd73b2de2090
   m_configObjects: {}

@@ -11493,19 +11493,19 @@ MonoBehaviour:
     costeUpgrade: 600
   misiles:
     prefab: {fileID: 5331293421699829243, guid: 5b78a16f51f8b7a44a9073d970b979d9, type: 3}
-    coste: 900
+    coste: 1000
     prefabUpgrade: {fileID: 5331293421699829243, guid: 88fb5ab3782d8a946957084df04af9c4, type: 3}
     costeUpgrade: 1600
   RayoLaser:
     prefab: {fileID: 869400902146433588, guid: a6e8456a02bc6e949be56562c70b3702, type: 3}
-    coste: 600
+    coste: 900
     prefabUpgrade: {fileID: 869400902146433588, guid: 15227a116093d91458946331c845f9e8, type: 3}
-    costeUpgrade: 800
+    costeUpgrade: 1600
   HongoPlata:
     prefab: {fileID: 1469840128298375502, guid: 9420061b37834bd49a36538d0777b13a, type: 3}
-    coste: 1000
+    coste: 600
     prefabUpgrade: {fileID: 7768791539671751013, guid: f958e62d2126afe43b67be02663408f4, type: 3}
-    costeUpgrade: 1600
+    costeUpgrade: 800
   buildManager: {fileID: 1869745098}
   coste1: {fileID: 1080964973}
   coste1mejora: {fileID: 1234001801}
@@ -14332,7 +14332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 127.79998, y: -10.400002}
+  m_AnchoredPosition: {x: 127.80004, y: -10.400002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1223690157
@@ -15279,7 +15279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: 6.6}
+  m_AnchoredPosition: {x: 103.99999, y: 6.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282128770
@@ -17894,7 +17894,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: 20}
+  m_AnchoredPosition: {x: 103.99999, y: 20}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1497110270
