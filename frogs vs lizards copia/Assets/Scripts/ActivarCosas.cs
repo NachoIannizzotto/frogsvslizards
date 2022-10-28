@@ -10,6 +10,7 @@ public class ActivarCosas : MonoBehaviour
     [SerializeField] GameObject _tienda;
     [SerializeField] GameObject _torreta;
     [SerializeField] GameObject _municion;
+    public bool modo = true;
     void Start()
     {
         MunicionActivada = false;
@@ -19,6 +20,23 @@ public class ActivarCosas : MonoBehaviour
 
     }
 
+    public void toggleMode()
+    {
+        if (modo == false)
+        {
+            modo = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+        }
+        else
+        {
+            modo = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+
+        }
+    }
     public void toggleMouse()
     {
         if (Cursor.lockState == CursorLockMode.None)
@@ -26,7 +44,7 @@ public class ActivarCosas : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
-        else
+        else if (Cursor.lockState == CursorLockMode.Locked)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;

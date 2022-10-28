@@ -11,12 +11,20 @@ public class MenuPausa : MonoBehaviour
     public string menuSceneName = "Menu";
 
     public SceneFader sceneFader;
-    
+
+    public ActivarCosas activarCosas;
+
+    public void Start()
+    {
+        activarCosas = FindObjectOfType<ActivarCosas>();
+    }
+
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             Toggle();
+            activarCosas.toggleMode();
         }
     }
 
