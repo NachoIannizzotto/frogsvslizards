@@ -42,6 +42,10 @@ public class DisparoTorreta : MonoBehaviour
     
     //MetodosLlamados//
     public AbilitySystem abilitySystem;
+    
+    //SONIDO//
+    private AudioSource audioSource;     
+    public AudioClip DisparoTorretaHeroe;
 
     public void Awake()
     {
@@ -51,6 +55,7 @@ public class DisparoTorreta : MonoBehaviour
 
     public void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         abilitySystem = FindObjectOfType<AbilitySystem>();
     }
 
@@ -60,6 +65,7 @@ public class DisparoTorreta : MonoBehaviour
         {
             nextshotRate = Time.time + 1f / shotRateTime;
             tryShot();
+            audioSource.PlayOneShot(DisparoTorretaHeroe);
             //Shoot();//
         }
 

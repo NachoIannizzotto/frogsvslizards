@@ -4,7 +4,10 @@ using System.Collections.Generic;
 
 public class Torreta : MonoBehaviour
 {
-
+	//SONIDO//
+	private AudioSource audioSource;     
+	public AudioClip Sonido;
+	//ALGO//
 	private Transform target;
 	private Enemy targetEnemy;
 
@@ -49,6 +52,7 @@ public class Torreta : MonoBehaviour
 	}
 	void Start()
 	{
+		audioSource = GetComponent<AudioSource>();
 		InvokeRepeating("UpdateTarget", 0f, 0.5f);
 	}
 
@@ -107,6 +111,8 @@ public class Torreta : MonoBehaviour
 				//Disparar();//
 				tryShot();
 				contadorCadencia = 1f / cadencia;
+				audioSource.PlayOneShot(Sonido);
+
 			}
 
 			contadorCadencia -= Time.deltaTime;
