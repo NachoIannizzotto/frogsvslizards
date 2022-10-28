@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,10 +14,19 @@ public class Bala : MonoBehaviour
     public float RadioExplosion = 0f;
     public GameObject efectoImpacto;
 
+    //SONIDO//
+    private AudioSource audioSource;     
+    public AudioClip Sonido;
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void Buscar(Transform _target)
     {
         target = _target;
     }
+    
 
 
     // Update is called once per frame
@@ -24,6 +34,7 @@ public class Bala : MonoBehaviour
     {
         if (target == null)
         {
+            
             Destroy(gameObject);
             return;
         }
@@ -33,6 +44,7 @@ public class Bala : MonoBehaviour
 
         if (dir.magnitude <= distanceThisfFrame)
         {
+            
             HitTarget();
             return;
         }
@@ -44,12 +56,14 @@ public class Bala : MonoBehaviour
 
     void HitTarget()
     {
+        
         GameObject efectoIns = Instantiate(efectoImpacto, transform.position, transform.rotation);
+        
         Destroy(efectoIns, 2f);
-
+        
         if (RadioExplosion > 0f)
         {
-
+            
             Explotar();
 
         }
@@ -57,7 +71,7 @@ public class Bala : MonoBehaviour
         {
             Dano(target);
         }
-
+        AudioSource.PlayClipAtPoint(Sonido, gameObject.transform.position);
         Destroy(gameObject);
     }
 
@@ -68,9 +82,11 @@ public class Bala : MonoBehaviour
         {
             if (collider.tag == "Enemy")
             {
+                
                 Dano(collider.transform);
             }
         }
+        
     }
 
     void Dano(Transform enemy)

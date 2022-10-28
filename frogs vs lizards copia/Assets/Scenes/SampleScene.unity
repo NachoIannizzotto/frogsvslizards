@@ -21781,12 +21781,12 @@ MonoBehaviour:
   - name: WAVE 1
     enemies:
     - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
-      count: 12
+      count: 22
       rate: 1.5
   - name: WAVE 2
     enemies:
     - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
-      count: 10
+      count: 14
       rate: 1.5
     - enemyTransform: {fileID: 727883201789527919, guid: f1347a1cee0760e4ea9b28939e6c0843, type: 3}
       count: 10
@@ -21794,53 +21794,53 @@ MonoBehaviour:
   - name: WAVE 3
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: bbf4cbcd1fa48a24e8faab3eddd59728, type: 3}
-      count: 2
+      count: 4
       rate: 1.5
     - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
-      count: 22
+      count: 26
       rate: 1.5
   - name: WAVE 4
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: bbf4cbcd1fa48a24e8faab3eddd59728, type: 3}
-      count: 2
+      count: 4
       rate: 1.5
     - enemyTransform: {fileID: 7401045568745785527, guid: 99b437d3975003442bb0718ee0911c1a, type: 3}
       count: 20
       rate: 1.5
     - enemyTransform: {fileID: 727883201789527919, guid: f1347a1cee0760e4ea9b28939e6c0843, type: 3}
-      count: 4
+      count: 6
       rate: 1.5
   - name: WAVE 5
     enemies:
     - enemyTransform: {fileID: 7401045568745785527, guid: c9852c952af187f4e99103f0cd98c07e, type: 3}
-      count: 60
+      count: 40
       rate: 1.5
   - name: WAVE 6
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
-      count: 4
+      count: 5
       rate: 1.5
     - enemyTransform: {fileID: 7401045568745785527, guid: c05702d136b91104b96beaa2a438ee25, type: 3}
       count: 25
       rate: 1.5
     - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
-      count: 6
+      count: 8
       rate: 1.5
   - name: WAVE 7
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
-      count: 5
+      count: 6
       rate: 1.5
     - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
-      count: 20
+      count: 25
       rate: 1.5
   - name: WAVE 8
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: 86af9cefb979f5942911da9d41d753bf, type: 3}
-      count: 5
+      count: 8
       rate: 1.5
     - enemyTransform: {fileID: 7401045568745785527, guid: c05702d136b91104b96beaa2a438ee25, type: 3}
-      count: 15
+      count: 25
       rate: 1.5
     - enemyTransform: {fileID: 727883201789527919, guid: d72c7d17c708695438f04cb78b94540c, type: 3}
       count: 15
@@ -21859,7 +21859,7 @@ MonoBehaviour:
   - name: WAVE 10
     enemies:
     - enemyTransform: {fileID: 27275453837297138, guid: 562f15c57a8be4a4388da4b738251eb9, type: 3}
-      count: 50
+      count: 30
       rate: 1.5
   timeBetweenWaves: 20
   waveCountdown: 40
@@ -31075,7 +31075,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0

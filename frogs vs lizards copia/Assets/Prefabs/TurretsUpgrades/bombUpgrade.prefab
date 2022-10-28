@@ -100,3 +100,4 @@ MonoBehaviour:
   damage: 150
   RadioExplosion: 5
   efectoImpacto: {fileID: 1000013060428206, guid: 67104ce9de86f7a4eb50e86656cb8ac9, type: 3}
+  Sonido: {fileID: 8300000, guid: 1c524d3215a434b4ea6822980a6fab67, type: 3}
