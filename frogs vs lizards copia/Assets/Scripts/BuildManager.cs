@@ -22,8 +22,8 @@ public class BuildManager : MonoBehaviour
     public GameObject HongoPPrefab;
     public NodoUI nodeUI;
 
-    private blueprintTorreta TorretaAConstruir;
-    private nodo NodoSeleccionado;
+    public blueprintTorreta TorretaAConstruir;
+    public nodo NodoSeleccionado;
 
     public bool PuedeConstruir { get { return TorretaAConstruir != null; } }
     public bool TieneDinero { get { return Stats.Dinero >= TorretaAConstruir.coste; } }

@@ -133,13 +133,13 @@ public class DisparoTorreta : MonoBehaviour
             if (Wood != null)
             {
                 GameObject woodImpact = Instantiate(woodImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
-                Destroy(woodImpactVFX, 2f);
+                Destroy(woodImpact, 2f);
             }
             Blood Blood = hit.transform.GetComponent<Blood>();
             if (Blood != null)
             {
                 GameObject bloodImpact = Instantiate(bloodImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
-                Destroy(bloodImpactVFX, 1f);
+                Destroy(bloodImpact, 1f);
             }
         }
         Muzzling = !Muzzling;

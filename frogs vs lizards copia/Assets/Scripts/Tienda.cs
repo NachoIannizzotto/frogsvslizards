@@ -9,6 +9,10 @@ public class Tienda : MonoBehaviour{
     public blueprintTorreta misiles;
     public blueprintTorreta RayoLaser;
     public blueprintTorreta HongoPlata;
+
+
+    public BuildManager buildManager;
+
     public Text coste1;
     public Text coste1mejora;
     public Text coste2;
@@ -18,25 +22,25 @@ public class Tienda : MonoBehaviour{
     public Text coste4;
     public Text coste4mejora;
 
-
-    BuildManager buildManager;
-
     public void Awake()
     {
         buildManager = BuildManager.instancia;
         coste1.text = "$ " + torretaStandar.coste.ToString();
         coste1mejora.text = "$ " + torretaStandar.costeUpgrade.ToString();
-        coste2.text ="$ " + misiles.coste.ToString();
+        coste2.text = "$ " + misiles.coste.ToString();
         coste2mejora.text = "$ " + misiles.costeUpgrade.ToString();
         coste3.text = "$ " + RayoLaser.coste.ToString();
         coste3mejora.text = "$ " + RayoLaser.costeUpgrade.ToString();
         coste4.text = "$ " + HongoPlata.coste.ToString();
         coste4mejora.text = "$ " + HongoPlata.costeUpgrade.ToString();
     }
-    private void Start()
-    {
 
+
+    public void Start()
+    {
+        buildManager = FindObjectOfType<BuildManager>();
     }
+
 
     public void SeleccionarTorreta ()
     {

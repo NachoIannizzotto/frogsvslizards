@@ -9408,7 +9408,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 1
+  m_ChildAlignment: 2
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -10894,24 +10894,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   torretaStandar:
     prefab: {fileID: 7154483215056282124, guid: 50b6e5dcc17d7f64d92ce2aa6e6caf8e, type: 3}
-    coste: 400
+    coste: 100
     prefabUpgrade: {fileID: 7154483215056282124, guid: f614f277d0468b442899938efe892835, type: 3}
-    costeUpgrade: 600
+    costeUpgrade: 200
   misiles:
     prefab: {fileID: 5331293421699829243, guid: 5b78a16f51f8b7a44a9073d970b979d9, type: 3}
-    coste: 900
+    coste: 300
     prefabUpgrade: {fileID: 5331293421699829243, guid: 88fb5ab3782d8a946957084df04af9c4, type: 3}
-    costeUpgrade: 1600
+    costeUpgrade: 400
   RayoLaser:
     prefab: {fileID: 869400902146433588, guid: a6e8456a02bc6e949be56562c70b3702, type: 3}
-    coste: 600
+    coste: 500
     prefabUpgrade: {fileID: 869400902146433588, guid: 15227a116093d91458946331c845f9e8, type: 3}
-    costeUpgrade: 800
+    costeUpgrade: 600
   HongoPlata:
-    prefab: {fileID: 1469840128298375502, guid: 9420061b37834bd49a36538d0777b13a, type: 3}
-    coste: 1000
+    prefab: {fileID: 5331293421699829243, guid: 5b78a16f51f8b7a44a9073d970b979d9, type: 3}
+    coste: 700
     prefabUpgrade: {fileID: 7768791539671751013, guid: f958e62d2126afe43b67be02663408f4, type: 3}
-    costeUpgrade: 1600
+    costeUpgrade: 800
+  buildManager: {fileID: 1869745098}
   coste1: {fileID: 1080964973}
   coste1mejora: {fileID: 1234001801}
   coste2: {fileID: 1497110271}
@@ -13528,7 +13529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13, y: -12}
+  m_AnchoredPosition: {x: 98, y: -109}
   m_SizeDelta: {x: 329.5, y: 519}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &1223690160
@@ -13561,20 +13562,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c275580d79aab3344a753e06daa19a9b, type: 3}
-    m_FontSize: 35
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 2
+    m_MinSize: 0
+    m_MaxSize: 75
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-    $700        '
+  m_Text: '$700        '
 --- !u!114 &1223690162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16641,6 +16640,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425147806}
+  m_CullTransparentMesh: 1
+--- !u!1 &1438427348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438427349}
+  - component: {fileID: 1438427351}
+  - component: {fileID: 1438427350}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1438427349
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438427348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1771136337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -109, y: -33}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1438427350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438427348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8e3010ea557dcac458cf62630d39db6e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1438427351
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438427348}
   m_CullTransparentMesh: 1
 --- !u!1 &1446872648
 GameObject:
@@ -19784,7 +19859,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1438427349}
   m_Father: {fileID: 833985520}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19819,7 +19895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.745283, g: 0.13007298, b: 0.13007298, a: 0.9137255}
+  m_Color: {r: 0.050062314, g: 0.16772725, b: 0.23584908, a: 0.9137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19828,11 +19904,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c275580d79aab3344a753e06daa19a9b, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -20736,6 +20812,12 @@ MonoBehaviour:
   LaserPrefab: {fileID: 869400902146433588, guid: a6e8456a02bc6e949be56562c70b3702, type: 3}
   HongoPPrefab: {fileID: 1469840128298375502, guid: 9420061b37834bd49a36538d0777b13a, type: 3}
   nodeUI: {fileID: 29386953}
+  TorretaAConstruir:
+    prefab: {fileID: 0}
+    coste: 0
+    prefabUpgrade: {fileID: 0}
+    costeUpgrade: 0
+  NodoSeleccionado: {fileID: 0}
 --- !u!114 &1869745099
 MonoBehaviour:
   m_ObjectHideFlags: 0
