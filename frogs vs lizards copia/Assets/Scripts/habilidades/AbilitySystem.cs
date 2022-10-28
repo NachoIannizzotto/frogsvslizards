@@ -62,7 +62,7 @@ public class AbilitySystem : MonoBehaviour
             do
             {
                 effects = true;
-                disparoTorreta.shotRateTime = 15;
+                disparoTorreta.shotRateTime = 12;
                 Debug.Log("HABILIDAD1");
                 time += Time.deltaTime;
                 yield return new WaitForEndOfFrame();

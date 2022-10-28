@@ -127,7 +127,7 @@ public class DisparoTorreta : MonoBehaviour
             if (Water != null)
             {
                 GameObject waterImpact = Instantiate(waterImpactVFX, hit.point, Quaternion.LookRotation(hit.point));
-                Destroy(waterImpact, 2f);
+                Destroy(waterImpact, 0.6f);
             }
             Wood Wood = hit.transform.GetComponent<Wood>();
             if (Wood != null)
