@@ -3655,8 +3655,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 457, y: 166}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 209.9038, y: 68.606964}
+  m_SizeDelta: {x: 204.3927, y: 204.3927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290331167
 MonoBehaviour:
@@ -6463,8 +6463,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 44
+  m_fontSizeBase: 44
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9176,8 +9176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 428, y: 145}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 150.6299, y: 25.6845}
+  m_SizeDelta: {x: 408.7853, y: 102.1963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &792296689
 CanvasRenderer:
@@ -9234,8 +9234,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9536,7 +9536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &815410505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12003,7 +12003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1023659804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12798,8 +12798,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 324, y: 197}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -61.9384, y: 131.9687}
+  m_SizeDelta: {x: 408.7853, y: 102.1963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1148403367
 CanvasRenderer:
@@ -12856,8 +12856,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13402,8 +13402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 581, y: 127.677}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 463.3506, y: -9.7225}
+  m_SizeDelta: {x: 327.0283, y: 61.3178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165900511
 MonoBehaviour:
@@ -21862,7 +21862,7 @@ MonoBehaviour:
       count: 30
       rate: 1.5
   timeBetweenWaves: 20
-  waveCountdown: 40
+  waveCountdown: 50
   oleadaCountdownText: {fileID: 179281747}
   VictoriaUI: {fileID: 1346975725}
 --- !u!114 &1869745103
@@ -23714,7 +23714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1985199692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25439,8 +25439,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 590, y: 505}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 536.8716, y: 478}
+  m_SizeDelta: {x: 223.1028, y: 72.5319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125632512
 MonoBehaviour:
@@ -25457,10 +25457,17 @@ MonoBehaviour:
   dialogo:
     nombre: pepo
     oraciones:
-    - Bienvenido, novato.
-    - "soy Papo y te voy a acompa\xF1ar"
-    - estas son las torretas
-    - negroides
+    - -Bienvenido, novato.
+    - "-Soy Papo y te voy a acompa\xF1ar"
+    - -Puedes comprar las torretas abajo a la izquierda
+    - '-Arriba a la izquierda puedes reproducir musica '
+    - "-Arriba al centro est\xE1 el tiempo que tendras para comprar y organizar tus
+      torretas."
+    - -Con la tecla "ESPACIO" cambias de camara
+    - -Con la tecla "Q" activas tu habilidad y con "MouseDerecho" activas el zoom
+    - "-Con la tecla \"TAB\" abres el panel de informaci\xF3n"
+    - -Con la tecla "ESC" abres el menu de opciones
+    - '-Finalmente arriba a la derecha tienes tu reserva de moscas (vida) '
 --- !u!114 &2125632513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25537,8 +25544,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d385248c14dd7bc419080db642449562, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
